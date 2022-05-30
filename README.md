@@ -18,7 +18,7 @@
 ## General info
  This project allow you to bring old photos into a great view in a couple of minutes.
 
-To run this application, you need using Google Colab or Jupyter Notebook
+To run this project, you can use Google Colab or Jupyter Notebook
 
 ## Technologies
 * Python - version 3.6
