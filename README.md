@@ -18,17 +18,16 @@
 ## General info
  This project allow you to bring old photos into a great view in a couple of minutes.
 
-To run this application, you need using Google Colab or Jupyter Notebook& 
+To run this application, you need using Google Colab or Jupyter Notebook
 
 ## Technologies
-* Python - version 3.9
+* Python - version 3.6
 
 ## Result
 Before | After
 ----- | ----
 <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo1.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo1.jpg" width="300">
------ | ----
-<img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo2.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo2.jpg" width="300">
+<img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo2.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo2.JPG" width="300">
 
 ## Features
 * [GFPGAN](https://github.com/TencentARC/GFPGAN)
@@ -44,4 +43,4 @@ The project was created for personal purposes
 Created by [Gurianov Mark](https://mark1708.github.io/) - feel free to contact me!
 #### +7(962)024-50-04 | mark1708.work@gmail.com | [github](http://github.com/Mark1708)
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mark1708&repo=neuro-snake&theme=chartreuse-dark&show_icons=true)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mark1708&repo=beautify-old-photo&theme=chartreuse-dark&show_icons=true)
