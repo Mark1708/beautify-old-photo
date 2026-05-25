@@ -1,46 +1,44 @@
 # beautify-old-photo
-![Python](https://img.shields.io/badge/-Python-0a0a0a?style=for-the-badge&logo=Python)
-![Google Colab](https://img.shields.io/badge/-googlecolab-0a0a0a?style=for-the-badge&logo=googlecolab)
-![Jupyter Notebook& ](https://img.shields.io/badge/-jupyter-0a0a0a?style=for-the-badge&logo=jupyter)
-<br/>
 
->The project was made for personal purposes for the restoration of old photos using python
+Research and ML demo for restoring and colorizing old photos.
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Result](#result)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+[Русская версия](README.ru.md)
 
-## General info
- This project allow you to bring old photos into a great view in a couple of minutes.
+## Motivation
 
-To run this project, you can use Google Colab or Jupyter Notebook
+This notebook explores how modern image restoration models can improve aged or low-quality photos with minimal manual editing.
 
-## Technologies
-* Python - version 3.6
+## Method
 
-## Result
-Before | After
------ | ----
-<img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo1.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo1.jpg" width="300">
-<img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo2.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo2.JPG" width="300">
+- GFPGAN for face restoration
+- DeOldify for colorization
+- Jupyter Notebook / Google Colab workflow
 
-## Features
-* [GFPGAN](https://github.com/TencentARC/GFPGAN)
-* [DeOldify](https://github.com/jantic/DeOldify)
+## Results
+
+| Before | After |
+|---|---|
+| <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo1.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo1.jpg" width="300"> |
+| <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/input/photo2.JPG" width="300"> | <img src="https://github.com/Mark1708/beautify-old-photo/raw/main/assets/output/result_photo2.JPG" width="300"> |
+
+## Limitations
+
+- Works best on photos with recoverable facial detail.
+- Output quality depends on source resolution and damage level.
+- Colorization is probabilistic, so some artifacts are expected.
+- This is an experiment, not a production image-processing pipeline.
+
+## Reproducibility
+
+1. Install dependencies from `requirements.txt`.
+2. Open `BeautifyOldPhoto.ipynb` in Jupyter or Google Colab.
+3. Follow the notebook cells to mount or prepare input images.
+
+## Credits
+
+- GFPGAN: https://github.com/TencentARC/GFPGAN
+- DeOldify: https://github.com/jantic/DeOldify
 
 ## Status
-Project is: _finished_
 
-## Inspiration
-The project was created for personal purposes
-
-## Contact
-Created by [Gurianov Mark](https://mark1708.github.io/) - feel free to contact me!
-#### +7(962)024-50-04 | mark1708.work@gmail.com | [github](http://github.com/Mark1708)
-
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mark1708&repo=beautify-old-photo&theme=chartreuse-dark&show_icons=true)
+Research demo only.
